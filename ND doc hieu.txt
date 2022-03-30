@@ -23,4 +23,17 @@
 - JS Array sort
 - JS loop for
 - JS while loop
+- JS Array loop 
+- JS Array cont
+- JS Date
+- JS Date format
+- Js Date get Methods
+- JS Date set methods
+- JS Math 
+- Js Random
+- JS boolean
+- JS comparisons
+- JS Condition
+- JS Switch
+- JS Break
  
