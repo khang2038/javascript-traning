@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <script>
+       var coures=[
+           {
+               id:1,
+               name:'javascript',
+               coin:100,
+               isfinish:true,
+           },
+           {
+               id:2,
+               name:'html,css',
+               coin:200,
+               isfinish:true,
+           },
+           {
+               id:3,
+               name:'ruby',
+               coin:800,
+               isfinish:true,
+            },
+            {
+                id : 4,
+                name:'java',
+                coin:900,
+                isfinish:true,
+            }
+            
+       ];
+       var i=0;
+       function coinhandler(accumulator,currenvalues,currenindex,arr){
+            i++    
+            console.table({
+                'luot chay: ':i,
+                'bien tich tru: ':accumulator
+            })   
+            console.log(currenvalues);
+            return accumulator+currenvalues.coin;    
+       }
+       var totalCoin = coures.reduce(coinhandler,0);
+       console.log(totalCoin);
+   </script> 
+    
+</body>
+</html>
