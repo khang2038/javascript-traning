@@ -36,4 +36,15 @@
 - JS Condition
 - JS Switch
 - JS Break
- 
+- JS interables;
+- Js Sets
+- JS Maps
+- JS Typeof
+- JS Type conversion
+- JS Bitwise
+- JS RegExp
+- JS Erors
+- JS Scope
+- JS Hoisting
+- JS Strict Mode
+- JS this Keyword
