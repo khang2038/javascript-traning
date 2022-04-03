@@ -48,3 +48,6 @@
 - JS Hoisting
 - JS Strict Mode
 - JS this Keyword
+- JS Arrow Functions
+- JS classes
+- JS modules
