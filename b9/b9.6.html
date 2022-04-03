@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>The JavaScript <i>this</i> Keyword</h1>
+
+    <p>In this example, <b>this</b> refers to the <b>person object</b>.</p>
+    <p id="demo" ></p>
+    <script>
+        const person={
+            firstName:"Tran",
+            LastName:"Khang",
+            id:5566,
+            myfunction: function(){
+                return this.firstName;
+            }
+        }
+        document.getElementById("demo").innerHTML =person.myfunction();
+    </script>
+</body>
+</html>

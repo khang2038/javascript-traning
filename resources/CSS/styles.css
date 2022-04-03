@@ -91,7 +91,7 @@ h1{
 .btn:active{
   background-color:#d35400;
 }
-/* About section */
+/*------------------- About section--------------- */
 h2{
   text-transform: uppercase;
   letter-spacing: 1px;
@@ -154,7 +154,7 @@ section{
     transform:translate(-65%,-50%);
     opacity: 1;
 }
-/* Product section */
+/*--------------------------- Product section--------------- */
 .couser{
   display: flex;
   justify-content: space-around;
@@ -166,7 +166,8 @@ section{
     margin-bottom:60px;
 }
 .product-box{
-    background-color:palegoldenrod;
+    background-color:#eeefff;
+    box-shadow:3px 5px 10px #e0e0e0;
     width:350px;
     height: 350px;
 }
@@ -180,4 +181,111 @@ h3{
   color: white ;
   border-top-right-radius: 15px;
   border-top-left-radius: 15px;
+  margin-bottom: 15px;
+}
+.product-price{
+   color: #265077 ;
+   font-size:250%;
+   font-weight:300;
+   text-align: center;
+}
+.product-price span{
+    font-size:80%;
+    font-weight: 200;
+
+}
+.product-box ul li{
+   margin-left: 20%;
+   list-style: none;
+   margin-top : 20px;
+   margin-bottom: 20px;
+}
+
+.small-icon{
+  color: #305679;
+  font-size: 130%;
+  margin-right: 10px;
+}
+.product-box .btn{
+  margin-left: 22%;
+}
+/*--------------Testtimonials section-------------------*/
+.testimonials-section{
+  background-image: linear-gradient(45deg, rgba(2,33,64,0.8) 55% ,rgba(45,95,93,0.85)), url('https://icongnghe.com/wp-content/uploads/2018/08/H%C3%ACnh-n%E1%BB%81n-4k-%C4%91%E1%BA%B9p.jpg');
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.testimonials-section h2{
+    margin-bottom:70px;
+}
+blockquote {
+  font-style: italic;
+  line-height: 140%;
+  color:white;
+  width:95%;
+  position: relative;
+}
+blockquote:before{
+  content: "\201C";
+  display: block;
+  font-size: 400%;
+  position: absolute;
+  top: -10px;
+  left: -10px;
+
+}
+cite{
+  display: block;
+  color: #6b95bd;
+  margin-top: 25px;
+}
+cite img{
+  height:50px;
+  border-radius: 50%;
+  border:2px solid #265077;
+  vertical-align: middle;
+  margin-right: 5px ;
+}
+/*------------------------------------Sponsor section--------------*/
+.sponsor-section{
+    background-color: #f4f4f4;
+}
+.sponsor-section h2{
+    margin-bottom:50px;
+}
+.sponsor-showcase{
+    margin-left: 8%;
+}
+.sponsor-showcase li{
+    list-style:none;
+    float:left;
+    width:30%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.logo-sponsor{
+    width: 140px;
+    cursor: pointer;  
+    transition: all 0.5s;
+    margin-bottom: 10px; 
+}
+.sponsor-showcase li .logo-sponsor:hover,
+.sponsor-showcase li .logo-sponsor:active{
+     transform:scale(1.2)
+}
+figcaption{
+  color:#265077;
+  font-weight: 900;
+  font-size: 100%;
+  cursor: pointer;
+}
+/*--------------contact form-------------*/
+
+/*--------------FOOTER------------------*/
+footer{
+  text-align: center; 
+  background-color: #494949;
+  color:white;
+  padding: 20px;
 }

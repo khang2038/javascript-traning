@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>JavaScript Function bind()</h1>
+
+    <p>This example creates 2 objects (person and member).</p>
+    <p>The member object borrows the fullname method from person:</p> 
+
+    <p id="demo"></p>
+    <script>
+        const person ={
+            firstname:"Tran",
+            lastname:"khang",
+            fullname:function() {
+                return this.firstname +" "+this.lastname;
+
+            }
+        }
+        const member={
+            firstname:"Tran",
+            lastname:"Nilsen",
+        }
+        let fullname=person.fullname.bind(member);
+        console.log(fullname());
+    </script>
+</body>
+</html>
