@@ -10,13 +10,12 @@
     <script>
         const person={
             firstname:"tran",
-            lastname:"khang",
-            language:"asdasda",
-            get lang(){
-                return this.language;
+            lastname:"Khang",
+            get fullname() {
+                return this.firstname + " " + this.lastname;
             }
-        }
-        console.log(person.lang);
+        };
+        console.log(person.fullname);
     </script>
 </body>
 </html>

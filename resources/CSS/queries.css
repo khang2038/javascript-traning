@@ -1,0 +1,60 @@
+/*big tablet to 1200px: */
+@media only screen and (max-width:1200px){
+    html{
+        font-size:16px;
+    }
+    .heading-main-box{
+        transform:translate(-35%,-50%);
+    }
+    .product-box{
+        width:80%;
+        margin-left: 20px;
+    }
+    form{
+        margin-left: 30%;
+    }
+}
+/* Small tablet from 768px to 1023px */
+@media only screen and (max-width:1023px){
+    .logo{
+        width: 300px;
+        margin-left:30px;
+    }
+    .main-nav{
+        margin-right:15px;
+        margin-top:40px;
+    }
+    .main-nav li{
+        margin-right: 15px;
+    }
+    .heading-main-box{
+        transform: translate(-50%,-50%);
+        width: 75%;
+    }
+    .product-box{
+        width: 500px;
+        font-size: 13px;
+        height: 300px;
+    }
+    .product-box .btn{
+        width: 80%;
+        margin-left: 20px;
+    }
+    .logo-sponsor{
+        width: 115px;
+    }
+    .real{
+        margin-right: 45px;
+    }
+    .bayen{
+        margin-left:30px;
+    }
+}
+/* small phones to small tablets */
+@media only screen and (max-width:767px){
+
+}
+/*small phone fromm 0 to 480px */
+@media only screen and (max-width:480px){
+
+}
