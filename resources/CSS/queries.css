@@ -49,7 +49,16 @@
     .bayen{
         margin-left:30px;
     }
-}
+    .social-icons li {
+        margin-left:10px;
+    }
+    .infomation i{
+        display: block;
+    }
+    .infomation li{
+        font-size:14px;
+    }
+}   
 /* small phones to small tablets */
 @media only screen and (max-width:767px){
 

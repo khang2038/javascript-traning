@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function person(first,last,age,eye){
+            this.firstname = first;
+            this.lastname = last;
+            this.age = age;
+            this.eyecolor=eye;
+        }
+        const myfather=new person("Tran","khang",20,"blue");
+        myfather.nationality="english";
+        console.log(myfather.nationality);
+    </script>
+</body>
+</html>
