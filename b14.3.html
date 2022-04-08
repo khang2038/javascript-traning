@@ -7,6 +7,17 @@
     <title>Document</title>
 </head>
 <body>
-    
+    <script>
+        const person={
+            fullname: function(city,country){
+                return this.firstname +" "+this.lastname+" "+city+" "+country;
+            }
+        }
+        const persom1={
+            firstname:"tran",
+            lastname:"khang"
+        }
+        console.log(person.fullname.apply(person1,["sadas","asdasdda"]));
+    </script>
 </body>
 </html>
