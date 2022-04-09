@@ -12,14 +12,16 @@
     <link rel="stylesheet" href="./resources/CSS/queries.css">
 </head>
 <body>
-     <header>
-         <a href="#"> <img class="logo" src="./resources/IMG/logo.png" alt="logo"> </a>
+     <header id="home">
+        <nav >
+             <a href="#home"> <img class="logo" src="./resources/IMG/logo.png" alt="logo"> </a>
          <ul class="main-nav">
-             <li> <a href=""> How Clients think </a> </li>
-             <li> <a href=""> About </a></li>
-             <li> <a href=""> Product </a></li>
-             <li> <a href=""> contact </a></li>
+             <li> <a href="#testimonials"> How Clients think </a> </li>
+             <li> <a href="#about"> About </a></li>
+             <li> <a href="#product"> Product </a></li>
+             <li> <a href="#contact"> contact </a></li>
          </ul>
+        </nav>
          <div class="clearfix"></div>
          <div class="row">
              <div class="heading-main-box">
@@ -27,13 +29,13 @@
                      we will study <br> English together. <br>
                      So join with us.
                  </h1>
-                 <a href="#" class="btn">Tell Me More</a>
-                 <a href="#" class="btn"> Join Us </a>
+                 <a href="#about" class="btn">Tell Me More</a>
+                 <a href="#product" class="btn"> Join Us </a>
              </div>
            
          </div>
      </header>
-     <section class="about-section">
+     <section class="about-section" id="about">
                  <div class="row">
                      <h2> About Us </h2>
                      <p class="p-long">
@@ -67,7 +69,7 @@
                      </div>
                  </div>
            </section>
-           <section class="product-section">
+           <section class="product-section" id="product">
                 <h2>Product</h2>
                 <div class="couser">
                     <div class="product-box">
@@ -101,7 +103,7 @@
                     </div>
                 </div>
            </section>
-           <section class="testimonials-section">
+           <section class="testimonials-section" id="testimonials">
                 <h2>Testimonials</h2>
                 <div class="row">
                     <div class="col span-1-of-3">
@@ -130,7 +132,7 @@
                     </div>
                 </div>
            </section>
-           <section class="sponsor-section">
+           <section class="sponsor-section" id="sponsor">
                 <h2>Sponsors</h2>
                 <div class="row">
                     <ul class="sponsor-showcase clearfix">
@@ -176,7 +178,7 @@
                     </ul>
                 </div>
            </section>
-           <section class="contact-section"> 
+           <section class="contact-section" id="contact"> 
                 <div class="row">
                     <div class="col span-1-of-3">
                          <ul class="infomation ">
@@ -230,5 +232,13 @@
                   Copyright &copy; 2018  by SEFLTAUGHT TEAM
                </p>
            </footer>
+           <script
+                  src="https://code.jquery.com/jquery-3.6.0.js"
+                  integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+                  crossorigin="anonymous">
+           </script>
+           <script src="vendors/js/jquery.waypoints.min.js"></script>
+           <script src="./resources/JS/scripts.js"> </script>
+
 </body>
 </html>
