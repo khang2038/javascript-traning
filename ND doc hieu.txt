@@ -51,3 +51,15 @@
 - JS Arrow Functions
 - JS classes
 - JS modules
+- JS JSON
+- JS debugging
+- JS style guide 
+JS Object :
+...
+JS Function :
+...
+JS classes:
+...
+JS Async:
+...
+JS DOM:
